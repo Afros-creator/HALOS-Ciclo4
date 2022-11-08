@@ -10,3 +10,7 @@ export * from './cliente.model';
 export * from './entradas.model';
 export * from './vendedor.model';
 export * from './pasaporte.model';
+export * from './usuario.model';
+export * from './roles.model';
+export * from './rol-usuario.model';
+export * from './credenciales.model';

@@ -10,3 +10,6 @@ export * from './restriccion.repository';
 export * from './zona.repository';
 export * from './vendedor.repository';
 export * from './pasaporte.repository';
+export * from './roles.repository';
+export * from './usuario.repository';
+export * from './rol-usuario.repository';

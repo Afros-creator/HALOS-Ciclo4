@@ -23,3 +23,7 @@ export * from './entradas.controller';
 export * from './vendedor.controller';
 export * from './pasaporte.controller';
 export * from './pasaporte-atraccion.controller';
+export * from './usuario-roles.controller';
+export * from './usuario.controller';
+export * from './rol.controller';
+export * from './rol-usuario.controller';

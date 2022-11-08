@@ -684,36 +684,6 @@
 										},
 										{
 											"_type": "ERDColumnView",
-											"_id": "AAAAAAGD/ZpZHK+E0Uo=",
-											"_parent": {
-												"$ref": "AAAAAAGD/YrF0a4aD/w="
-											},
-											"model": {
-												"$ref": "AAAAAAGD/ZpZFK+BXRU="
-											},
-											"font": "Arial;13;0",
-											"left": 877,
-											"top": 263,
-											"width": 194.61767578125,
-											"height": 13
-										},
-										{
-											"_type": "ERDColumnView",
-											"_id": "AAAAAAGD/bAK4LDdPwc=",
-											"_parent": {
-												"$ref": "AAAAAAGD/YrF0a4aD/w="
-											},
-											"model": {
-												"$ref": "AAAAAAGD/bAK27DaYb0="
-											},
-											"font": "Arial;13;0",
-											"left": 877,
-											"top": 278,
-											"width": 194.61767578125,
-											"height": 13
-										},
-										{
-											"_type": "ERDColumnView",
 											"_id": "AAAAAAGETWMyJvWryaM=",
 											"_parent": {
 												"$ref": "AAAAAAGD/YrF0a4aD/w="
@@ -723,7 +693,22 @@
 											},
 											"font": "Arial;13;0",
 											"left": 877,
-											"top": 293,
+											"top": 263,
+											"width": 194.61767578125,
+											"height": 13
+										},
+										{
+											"_type": "ERDColumnView",
+											"_id": "AAAAAAGD/ZpZHK+E0Uo=",
+											"_parent": {
+												"$ref": "AAAAAAGD/YrF0a4aD/w="
+											},
+											"model": {
+												"$ref": "AAAAAAGD/ZpZFK+BXRU="
+											},
+											"font": "Arial;13;0",
+											"left": 877,
+											"top": 278,
 											"width": 194.61767578125,
 											"height": 13
 										},
@@ -738,7 +723,7 @@
 											},
 											"font": "Arial;13;0",
 											"left": 877,
-											"top": 308,
+											"top": 293,
 											"width": 194.61767578125,
 											"height": 13
 										}
@@ -747,7 +732,7 @@
 									"left": 872,
 									"top": 183,
 									"width": 204.61767578125,
-									"height": 143
+									"height": 128
 								}
 							],
 							"font": "Arial;13;0",
@@ -4254,31 +4239,21 @@
 						},
 						{
 							"_type": "ERDColumn",
-							"_id": "AAAAAAGD/ZpZFK+BXRU=",
-							"_parent": {
-								"$ref": "AAAAAAGD/YrF0a4Wc2E="
-							},
-							"name": "Contraseña",
-							"type": "String",
-							"length": 0
-						},
-						{
-							"_type": "ERDColumn",
-							"_id": "AAAAAAGD/bAK27DaYb0=",
-							"_parent": {
-								"$ref": "AAAAAAGD/YrF0a4Wc2E="
-							},
-							"name": "Fecha_creacion",
-							"type": "DateTime",
-							"length": 0
-						},
-						{
-							"_type": "ERDColumn",
 							"_id": "AAAAAAGETWMyB/WoeWk=",
 							"_parent": {
 								"$ref": "AAAAAAGD/YrF0a4Wc2E="
 							},
 							"name": "Celular",
+							"type": "String",
+							"length": 0
+						},
+						{
+							"_type": "ERDColumn",
+							"_id": "AAAAAAGD/ZpZFK+BXRU=",
+							"_parent": {
+								"$ref": "AAAAAAGD/YrF0a4Wc2E="
+							},
+							"name": "Contraseña",
 							"type": "String",
 							"length": 0
 						},
