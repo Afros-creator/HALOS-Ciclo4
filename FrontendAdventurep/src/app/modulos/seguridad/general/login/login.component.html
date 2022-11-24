@@ -1,0 +1,40 @@
+<div class="container">
+   <div class="borde green lighten">
+    <div class="container">
+        <h4 style="color: rgb(199, 199, 233);">APP-ADVENTUREP</h4>
+        <form [formGroup]="formulariologin">
+        <div>
+            <input formcontrolName="user" type="text" placeholder="ingrese su correo">
+            <div>
+            <div class="error de validacion">
+            <label *ngIf="formulariologin.controls['user'].errors && formulariologin.controls['user'].dirty">
+                        el usuario no valido, debe ingresar su e-mail
+            </label>
+            </div>  
+            </div>
+            <div>
+                <input formcontrolName="pass" type="password" placeholder="ingrese contraseña">
+                <div lass="error de validacion">
+                    <label *ngIf="!mostrar">
+                        la contraseña debe tener 8 caracteres
+                    </label>
+    
+                </div>
+            </div>
+            <div style="text-align: right; text-decoration: underline;">
+
+                <i><a routerlink="seguridad/recuperar/">olvido su contraseña</a></i>
+    
+            </div>
+            <div class="center">
+                <button [disabled]="formulariologin.controls['user'].errors || formulariologin.controls['user'].errors " (click)="login()" class="btn waves-effect green liggthen-2" type="submit" name=""> 
+                    <i class="materials-icons right">send</i>
+                </button>
+    
+            </div>
+        </div>
+        </form>
+    </div>
+
+   </div>
+</div>

@@ -1,0 +1,37 @@
+h1,h3{
+    background-color: antiquewhite;
+}
+
+div{
+    padding: 30;
+    border-radius: 30px;
+    background-color: blue;
+}
+
+p {
+    background-color: aquamarine;
+}
+
+.borde{
+    border-radius: 30px;
+    border: 2px solid;
+}
+
+
+.nombre{
+    border-color: black;
+    border: 5px solid;
+}
+
+div{
+    padding: 20px;
+}
+
+.fas fa-bars{
+    font-size:60px;
+    color: rgb(11, 11, 11);
+}
+.errorvalidacion label{
+    color: brown;
+    font-weight: bold;
+}

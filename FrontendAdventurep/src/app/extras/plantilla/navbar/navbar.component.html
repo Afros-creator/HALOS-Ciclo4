@@ -1,0 +1,20 @@
+<nav>
+    <div class="nav-wrapper cyan accent-1">
+      <a routerlink="" class="brand-logo">home</a>
+      <a routerlink="#" data-target="mobile-demo" class="sidenav-trigger"><i class="material-icons">menu</i></a>
+      <ul class="right hide-on-med-and-down">
+        <li *ngIf="!sesionActiva"><a routerlink="seguridad/registro">Registrese</a></li>
+        <li *ngIf="!sesionActiva"><a routerlink="seguridad/login">login</a></li>
+        <li *ngIf="sesionActiva"><a routerlink="badges.html">Components</a></li>
+        <li *ngIf="sesionActiva"><a routerlink="collapsible.html">Javascript</a></li>
+        <li *ngIf="sesionActiva"><a routerlink="mobile.html">Mobile</a></li>
+      </ul>
+    </div>
+  </nav>
+
+  <ul class="sidenav" id="mobile-demo">
+    <li><a routerlink="seguridad/login">login</a></li>
+    <li><a routerlink="badges.html">Components</a></li>
+    <li><a routerlink="collapsible.html">Javascript</a></li>
+    <li><a routerlink="mobile.html">Mobile</a></li>
+  </ul>

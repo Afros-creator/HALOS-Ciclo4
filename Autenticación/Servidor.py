@@ -56,7 +56,7 @@ def mail():
 
 
     message = Mail(
-        from_email='g5misiontic@gmail.com',
+        from_email='grupo5misiontic2@gmail.com',
         to_emails=destino,
         subject=asunto,
         html_content=mensaje)
